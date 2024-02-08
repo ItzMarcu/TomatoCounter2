@@ -1,0 +1,146 @@
+
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0px;
+    border: 1px solid lightgrey;
+    border-top: 0;
+    padding-bottom: 15px;
+    background-color: #eeecea;
+}
+
+p#titolo {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: x-large;
+}
+
+.contatti {
+    position: absolute;
+    top: 10%;
+    left: 21%;
+}
+
+ul, li {
+    display: inline;
+}
+
+a {
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0px;
+    padding: 0px;
+}
+
+.start {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 30px;
+}
+
+p#button {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: x-large;
+}
+
+button#start {
+    border: 1px solid lightgrey;
+    background-color: transparent;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+button#start:active {
+    background-color: lightgrey;
+    transition: ease-in-out 0.2s;
+    -webkit-transition: ease-in-out 0.2s;
+    -moz-transition: ease-in-out 0.2s;
+    -ms-transition: ease-in-out 0.2s;
+    -o-transition: ease-in-out 0.2s;
+}
+
+.timer-active-tomato{
+    background-color: red;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    transition: 0.2s;
+    -webkit-transition: 0.2s;
+    -moz-transition: 0.2s;
+    -ms-transition: 0.2s;
+    -o-transition: 0.2s;
+}
+
+.timer-active-pause{
+    background-color: lightgreen;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    transition: 0.2s;
+    -webkit-transition: 0.2s;
+    -moz-transition: 0.2s;
+    -ms-transition: 0.2s;
+    -o-transition: 0.2s;
+}
+
+.status {
+    display: flex;
+    justify-content: center;
+}
+
+p#status {
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+}
+
+.controls {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    position: absolute;
+    bottom: 25%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.concentrazione {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.riposo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+label {
+    font-size: large;
+}
+
+input[type = 'text'] {
+    border: 1px solid lightgrey;
+    border-bottom: 1px solid black;
+    font-size: large;
+    width: 150px;
+    font-family: Arial, Helvetica, sans-serif;
+}
