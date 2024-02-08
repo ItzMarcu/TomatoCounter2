@@ -23,7 +23,7 @@ function updateTimer() {
         }
     } else {
         if (seconds === 0) {
-            mintes--;
+            minutes--;
             seconds = 59;
         } else {
             seconds--;
